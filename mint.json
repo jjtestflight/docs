@@ -27,11 +27,6 @@
       "name": "Live Beta App",
       "icon": "globe",
       "url": "https://beta.earnos.io"
-    },
-    {
-      "name": "Public Roadmap",
-      "icon": "map",
-      "url": "https://earnos.featurebase.app/roadmap"
     }
   ],
   "navigation": [
