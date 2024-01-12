@@ -50,7 +50,7 @@
     },
     {
       "group": "Essentials",
-      "pages": ["/essentials/coming-soon"]
+      "pages": ["essentials/coming-soon"]
     }
   ],
   "footerSocials": {
