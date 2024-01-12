@@ -1,78 +1,73 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "EarnOS",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "light": "/logo/earnos-logo-dark.svg",
+    "dark": "/logo/earnos-logo.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#AE87FF",
+    "light": "#AE87FF",
+    "dark": "#0D001D",
+    "background": {
+      "dark": "#100E15"
+    },
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#AE87FF",
+      "to": "#1C9bEF"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "App Dashboard",
+    "url": "https://beta.earnos.io"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Live Beta App",
+      "icon": "globe",
+      "url": "https://beta.earnos.io"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Public Roadmap",
+      "icon": "map",
+      "url": "https://earnos.featurebase.app/roadmap"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": ["introduction", "earn-quickstart", "grow-quickstart"]
     },
     {
       "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
-    },
-    {
-      "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "essentials/verification",
+        "essentials/missions",
+        "essentials/xp",
+        "essentials/partners"
+      ]
+    },
+    {
+      "group": "Guides",
+      "pages": ["guides/how-to-find-your-embedded-wallet-address"]
+    },
+    {
+      "group": "About EarnOS",
+      "pages": [
+        "about-earnos/overview",
+        "about-earnos/purpose",
+        "about-earnos/company-Detail",
+        "about-earnos/growth-Approach",
+        "about-earnos/referrals",
+        "about-earnos/key-Terminology",
+        "about-earnos/Branding-Language",
+        "about-earnos/roadmap",
+        "about-earnos/competitors"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/earn-os"
   }
 }
