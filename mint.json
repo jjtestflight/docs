@@ -31,23 +31,6 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "earn-quickstart", "grow-quickstart"]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/verification",
-        "essentials/missions",
-        "essentials/xp",
-        "essentials/partners"
-      ]
-    },
-    {
-      "group": "Guides",
-      "pages": ["guides/how-to-find-your-embedded-wallet-address"]
-    },
-    {
       "group": "About EarnOS",
       "pages": [
         "about-earnos/overview",
@@ -60,6 +43,14 @@
         "about-earnos/roadmap",
         "about-earnos/competitors"
       ]
+    },
+    {
+      "group": "Get Started",
+      "pages": ["coming-soon"]
+    },
+    {
+      "group": "Essentials",
+      "pages": ["/essentials/coming-soon"]
     }
   ],
   "footerSocials": {
