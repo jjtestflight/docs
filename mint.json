@@ -43,14 +43,6 @@
         "about-earnos/roadmap",
         "about-earnos/competitors"
       ]
-    },
-    {
-      "group": "Get Started",
-      "pages": ["coming-soon"]
-    },
-    {
-      "group": "Essentials",
-      "pages": ["essentials/coming-soon"]
     }
   ],
   "footerSocials": {
